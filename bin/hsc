@@ -3,7 +3,7 @@ console.log('hsc cli is start working.....')
 
 const program = require('commander')
 const init = require('../lib/init')
-const updateChk = require('../lib/init')
+const updateChk = require('../lib/upgrade')
 // 显示版本
 program.version(require('../package').version, '-v', '--version')
 // 添加init命令，简写是i， <name> 是参数  action回调里可以拿到, 如果是一个
